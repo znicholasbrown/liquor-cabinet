@@ -1,5 +1,5 @@
 {
-  "name": "Liquor Cabinet",
+  "name": "liquor-cabinet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
