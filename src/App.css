@@ -1,0 +1,113 @@
+.app {
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+
+}
+.background-img {
+  margin-top: -50px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+  background-image: url("./background.jpg");
+  background-position: center center;
+  -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  z-index: -1 !important;
+}
+.welcome-header {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 50%;
+  height: 60px;
+  position: relative;
+  min-width: 300px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
+}
+#_user_ {
+  width: 200px;
+  min-width: 200px;
+  max-width: 400px;
+  display: inline-flex;
+  font-size: 100%;
+  text-align: center;
+  transition: width 0.25s;
+}
+
+.add-recipe-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right:0;
+  margin: auto;
+}
+.recipe-book {
+  min-width: 300px;
+  width: 50%;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.new-recipe-button {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+}
+.recipe {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: larger;
+  color: black;
+}
+.collapsible {
+  box-shadow: 1px 1px 3px black;
+  border: none;
+}
+.collapsible-header {
+  color: black;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: -1px -1px 5px black;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.collapsible-body {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.ingredients {
+  font-family: "Molengo", sans-serif;
+}
+.chip {
+  background-color: white;
+  box-shadow: 1px 1px 3px black;
+  height: 32.5px;
+  font-size: 16px;
+}
+.edit-recipe, .delete-recipe {
+  position: relative;
+  margin-left: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.copyright {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 16px;
+  min-width: 250px;
+  width: 10%;
+  line-height: 12px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
